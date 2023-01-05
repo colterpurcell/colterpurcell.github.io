@@ -9,26 +9,22 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="grid auto-cols-fr grid-rows-5 gap-2 h-screen w-screen aspect-[16/9] p-2">
+      <div className="grid auto-cols-fr grid-rows-5 gap-2 w-screen aspect-[16/9] p-2">
         <div className="flex flex-col row-span-1 col-span-1 rounded-[3rem] justify-center items-center text-black bg-stone-100">
           <h2 className="text-6xl font-medium font-sans">c.</h2>
         </div>
-        <div className="flex flex-col row-span-2 row-start-4 col-span-2 col-start-2 rounded-[3rem] justify-end items-start text-stone-100 bg-blue-600">
+        <div className="flex flex-col row-span-2 row-start-4 col-span-2 col-start-2 rounded-[3rem] justify-end items-start text-stone-100 bg-blue-600 expander duration-300 transition-all">
           <h3 className="text-3xl font-medium font-sans px-6 p-4">
             contact me
           </h3>
         </div>
-        <div className="flex flex-col row-span-2 row-start-4 col-span-2 col-start-4 rounded-[3rem] justify-end items-start text-black bg-yellow-300">
-          <h3 className="text-3xl font-medium font-sans px-6 p-4">
-            about me
-          </h3>
+        <div className="flex flex-col row-span-2 row-start-4 col-span-2 col-start-4 rounded-[3rem] justify-end items-start text-black bg-yellow-300 expander duration-300 transition-all">
+          <h3 className="text-3xl font-medium font-sans px-6 p-4">about me</h3>
         </div>
-        <div className="flex flex-col row-span-4 row-start-2 col-span-4 col-start-6 rounded-[3rem] text-stone-100 bg-red-500">
-          <h3 className="text-3xl font-medium font-sans px-6 p-4">
-            showcase
-          </h3>
+        <div className="flex flex-col row-span-4 row-start-2 col-span-4 col-start-6 rounded-[3rem] text-stone-100 bg-red-500 expander duration-300 transition-all">
+          <h3 className="text-3xl font-medium font-sans px-6 p-4">showcase</h3>
         </div>
-        <div className="flex flex-col row-span-2 col-span-5 col-start-1 bg-green-600 text-stone-100 rounded-[3rem] w-full h-full">
+        <div className="flex flex-col row-span-2 col-span-5 col-start-1 bg-green-600 text-stone-100 rounded-[3rem] w-full h-full expander duration-300 transition-all">
           <h2 className="font-sans text-3xl font-medium px-6 p-4">my work</h2>
         </div>
       </div>
