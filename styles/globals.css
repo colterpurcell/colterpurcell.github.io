@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
-@tailwind utilities;/*# sourceMappingURL=globals.css.map */
+@tailwind utilities;
+@import "/plus-jakarta-sans.scss";
+
+html {
+  white-space: pre-wrap;
+}
+
+.font-sans {
+  font-family: "Plus Jakarta Sans", system-ui;
+}
+/*# sourceMappingURL=globals.css.map */
